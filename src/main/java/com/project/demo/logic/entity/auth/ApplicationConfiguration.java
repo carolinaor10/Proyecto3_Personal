@@ -18,6 +18,7 @@ public class ApplicationConfiguration {
     @Autowired
     private final UserRepository userRepository;
 
+
     public ApplicationConfiguration(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
